@@ -1,0 +1,24 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "pdf2image": "^1.2.3",
+    "pdfjs-dist": "^3.11.174",
+    "tesseract.js": "^5.0.2",
+    "vue": "^3.3.6",
+    "vue-pdf": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  }
+}
